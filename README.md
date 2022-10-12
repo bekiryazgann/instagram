@@ -2,28 +2,10 @@
 
 This is a PHP library which emulates Instagram's Private API. This library is packed full with almost all the features from the Instagram Android App. This includes media uploads, direct messaging, stories and more.
 
-**Read the [wiki](https://github.com/mgp25/Instagram-API/wiki)** and previous issues before opening a new one! Maybe your issue has already been answered.
+**Read the [wiki](https://github.com/bekiryazgann/mgp25/wiki)** and previous issues before opening a new one! Maybe your issue has already been answered.
 
-**Frequently Asked Questions:** [F.A.Q.](https://github.com/mgp25/Instagram-API/wiki/FAQ)
+**Frequently Asked Questions:** [F.A.Q.](https://github.com/bekiryazgann/mgp25/wiki/FAQ)
 
-**Do you like this project? Support it by donating**
-
-**mgp25**
-
-- ![Paypal](https://raw.githubusercontent.com/reek/anti-adblock-killer/gh-pages/images/paypal.png) Paypal: [Donate](https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=5ATYY8H9MC96E)
-- ![btc](https://raw.githubusercontent.com/reek/anti-adblock-killer/gh-pages/images/bitcoin.png) Bitcoin: 1DCEpC9wYXeUGXS58qSsqKzyy7HLTTXNYe
-
-**stevejobzniak**
-
-- ![Paypal](https://raw.githubusercontent.com/reek/anti-adblock-killer/gh-pages/images/paypal.png) Paypal: [Donate](https://www.paypal.me/Armindale/0usd)
-- ![btc](https://raw.githubusercontent.com/reek/anti-adblock-killer/gh-pages/images/bitcoin.png) Bitcoin: 18XF1EmrkpYi4fqkR2XcHkcJxuTMYG4bcv
-
-**jroy**
-
-- ![Paypal](https://raw.githubusercontent.com/reek/anti-adblock-killer/gh-pages/images/paypal.png) Paypal: [Donate](https://www.paypal.me/JoshuaRoy1/0usd)
-- ![btc](https://raw.githubusercontent.com/reek/anti-adblock-killer/gh-pages/images/bitcoin.png) Bitcoin: 32J2AqJBDY1VLq6wfZcLrTYS8fCcHHVDKD
-
-----------
 ## Installation
 
 ### Dependencies
@@ -44,19 +26,13 @@ require __DIR__.'/../vendor/autoload.php';
 $ig = new \InstagramAPI\Instagram();
 ```
 
-If you want to test new and possibly unstable code that is in the master branch, and which hasn't yet been released, then you can do the following (at your own risk):
-
-```sh
-composer require mgp25/instagram-php dev-master
-```
-
 #### _Warning about moving data to a different server_
 
 _Composer checks your system's capabilities and selects libraries based on your **current** machine (where you are running the `composer` command). So if you run Composer on machine `A` to install this library, it will check machine `A`'s capabilities and will install libraries appropriate for that machine (such as installing the PHP 7+ versions of various libraries). If you then move your whole installation to machine `B` instead, it **will not work** unless machine `B` has the **exact** same capabilities (same or higher PHP version and PHP extensions)! Therefore, you should **always** run the Composer-command on your intended target machine instead of your local machine._
 
 ## Examples
 
-All examples can be found [here](https://github.com/mgp25/Instagram-API/tree/master/examples).
+All examples can be found [here](https://github.com/bekiryazgann/mgp25/tree/master/examples).
 
 ## Code of Conduct
 
@@ -68,7 +44,7 @@ Please report any unacceptable behavior.
 
 If you would like to contribute to this project, please feel free to submit a pull request.
 
-Before you do, take a look at the [contributing guide](https://github.com/mgp25/Instagram-API/blob/master/CONTRIBUTING.md).
+Before you do, take a look at the [contributing guide](https://github.com/bekiryazgann/mgp25/blob/master/CONTRIBUTING.md).
 
 ## Why did I make this API?
 
@@ -101,11 +77,11 @@ right to use this library.
 Furthermore, the library is _also_ available _to certain entities_ under a
 modified version of the RPL-1.5, which has been modified to allow you to use the
 library _without_ open-sourcing your own project. The modified license
-(see [LICENSE_PREMIUM](https://github.com/mgp25/Instagram-API/blob/master/LICENSE_PREMIUM))
+(see [LICENSE_PREMIUM](https://github.com/bekiryazgann/mgp25/blob/master/LICENSE_PREMIUM))
 is granted to certain entities, at _our_ discretion, and for a _limited_ period
 of time (unless otherwise agreed), pursuant to our terms. Currently, we are
 granting this license to all
-"[premium subscribers](https://github.com/mgp25/Instagram-API/issues/2655)" for
+"[premium subscribers](https://github.com/bekiryazgann/mgp25/issues/2655)" for
 the duration of their subscriptions. You can become a premium subscriber by
 either contributing substantial amounts of high-quality code, or by subscribing
 for a fee. This licensing ensures fairness and stimulates the continued growth
